@@ -33,7 +33,7 @@ This equation applied to our problem becomes:
 $$
 \begin{aligned}
 \mbox{Pr}(D=1 \mid +) & =  \frac{ P(+ \mid D=1) \cdot P(D=1)} {\mbox{Pr}(+)} \\
-& =  \frac{\mbox{Pr}(+ \mid D=1)\cdot P(D=1)} {\mbox{Pr}(+ \mid D=1) \cdot P(D=1) + \mbox{Pr}(+ \mid D=0) \mbox{Pr}( D=0)} 
+& =  \frac{\mbox{Pr}(+ \mid D=1)\cdot P(D=1)} {\mbox{Pr}(+ \mid D=1) \cdot P(D=1) + \mbox{Pr}(+ \mid D=0)  \cdot \mbox{Pr}( D=0)} 
 \end{aligned}
 $$
 
